@@ -1,0 +1,200 @@
+/* QUESTIONS
+1. link for email doesn't work ?
+2. download pdf has to work or not
+3. 
+*/
+
+
+/* Global styles
+--------------------------- */
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: rgb(242, 215, 238);
+    color: #69306D;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* 1 -  MAIN PAGE 
+-----------------------------------------------------------------------*/
+
+
+
+/* Text and headers
+--------------------------- */
+h2 {
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 400;
+    color: #69306D;
+}
+h3 {
+    color: #69306D;
+}
+a {
+   font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(14, 16, 61);
+}
+a:hover {
+    text-decoration: none;
+    }
+.content-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.col-wide {
+    width: 70%;
+    float: left;
+}
+
+/* Header and Footer
+--------------------------- */
+header, footer {
+     background: rgb(211, 188, 192);
+    color: rgb(14, 16, 61);
+}
+/* Footer*/
+footer {
+    text-align: center;
+}
+.contact-info a {
+    background: rgb(242, 215, 238);
+    padding: 15px;
+}
+/* Header */
+.profile-img {
+    border-radius: 50%;
+}
+h1, header h2, footer h2{
+    margin-top: 0;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 400;
+    background: rgb(211, 188, 192);
+    color: rgb(14, 16, 61);
+}
+header{
+  margin: 0;
+    padding-top: 70px;
+    position: relative;
+}
+h1 {
+    font-size: 80px;
+}
+h3 ~ p {
+    margin-left: 40px;
+}
+.btn {
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background: rgb(14, 16, 61);
+    color: rgb(211, 188, 192);
+}
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Education
+-----------------------------*/
+p + h3 {
+    margin-top: 20px;
+}
+#education {
+    background: linear-gradient(rgba(242, 215, 238, 0.8), rgba(242, 215, 238, 0.7)),
+    url(https://fs.bitcoinmagazine.com/img/images/stpetersburg.original.jpg) no-repeat fixed;
+    background-size: cover;
+    color: rgb(14, 16, 61);
+}
+
+/* Education
+-----------------------------*/
+h3 ~ p {
+    margin:0;
+}
+
+
+/* Navigation
+-----------------------------*/
+nav {
+    background: rgb(14, 16, 61);;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+   padding: 20px 15px;
+    color: rgb(211, 188, 192);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* Media queries
+-----------------------------*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    .col-wide {
+        width: 30%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
+
+
+
+/* 2 -  SCHOOLPROJECTS PAGE 
+-----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
