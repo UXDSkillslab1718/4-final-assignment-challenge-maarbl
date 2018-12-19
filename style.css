@@ -1,7 +1,7 @@
 /* QUESTIONS
 1. link for email doesn't work ?
 2. download pdf has to work or not
-3. 
+3. why in section schoolprojects background covers text
 */
 
 
@@ -125,8 +125,6 @@ p + h3 {
     color: rgb(14, 16, 61);
 }
 
-/* Education
------------------------------*/
 h3 ~ p {
     margin:0;
 }
@@ -135,7 +133,7 @@ h3 ~ p {
 /* Navigation
 -----------------------------*/
 nav {
-    background: rgb(14, 16, 61);;
+    background: rgb(14, 16, 61);
     text-align: center;
     position: fixed;
     top: 0;
@@ -174,10 +172,14 @@ nav a {
 
 
 
-/* 2 -  SCHOOLPROJECTS PAGE 
+/* 2 -  SCHOOLPROJECTS
 -----------------------------------------------------------------------*/
 
-
+#schoolprojects {
+    background: linear-gradient(rgba(242, 215, 238, 0.8), rgba(242, 215, 238, 0.7)), url(http://www.luiss.edu/sites/www.luiss.it/files/images/notices/70/Holland-2.jpg) no-repeat fixed;
+    background-size: cover;
+    color: rgb(14, 16, 61);
+}
 
 
 
